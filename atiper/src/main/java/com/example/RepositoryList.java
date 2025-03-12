@@ -9,6 +9,7 @@ public class RepositoryList {
         System.out.println("Please enter User Name:");
         try{
         String userName = scanner.nextLine();
+        scanner.close();
         String response = repoService.getReposList(userName);
         if(response!=null){
             JsonOperation jsonOperation = new JsonOperation();

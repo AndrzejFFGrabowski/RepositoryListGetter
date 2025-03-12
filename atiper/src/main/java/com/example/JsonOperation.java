@@ -36,8 +36,6 @@ public class JsonOperation {
         {
             JSONObject jsonObject = jsonArray.getJSONObject(i);
             System.out.print(jsonObject.getString("name"));
-            //String response = repoService.getBranches(jsonObject.getJSONObject("commit").getString("url"));
-            //JSONObject jsonObjectCommit = new JSONObject(response);
             System.out.println("  last commit sha: "+jsonObject.getJSONObject("commit").getString("sha"));
         }
     }
