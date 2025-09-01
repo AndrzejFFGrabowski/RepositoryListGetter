@@ -1,4 +1,3 @@
-Zadanie do rekrutacji w firmie Atiper.
 
 Zadanie wykonalem w jezyku Java
 
